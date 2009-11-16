@@ -1,0 +1,3 @@
+include tfav/config/deployment.ini_tmpl
+recursive-include tfav/public *
+recursive-include tfav/templates *

@@ -1,0 +1,670 @@
+Starting server in PID 30598.
+serving on http://127.0.0.1:37048
+Starting server in PID 27532.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 11772.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 24798.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 7486.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 19306.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 1629.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 13874.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 28445.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 8178.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 22679.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 2777.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 18028.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 30290.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 13439.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 25758.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 8651.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 20818.
+serving on http://127.0.0.1:37048
+Starting server in PID 26130.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
+Starting server in PID 7573.
+Traceback (most recent call last):
+  File "./bin/paster", line 8, in <module>
+    load_entry_point('PasteScript==1.7.3', 'console_scripts', 'paster')()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 84, in run
+    invoke(command, command_name, options, args[1:])
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 123, in invoke
+    exit_code = runner.run(args)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/command.py", line 218, in run
+    result = self.command()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 303, in command
+    serve()
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteScript-1.7.3-py2.5.egg/paste/script/serve.py", line 287, in serve
+    server(app)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/loadwsgi.py", line 151, in server_wrapper
+    **context.local_conf)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/PasteDeploy-1.3.3-py2.5.egg/paste/deploy/util/fixtypeerror.py", line 57, in fix_call
+    val = callable(*args, **kw)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1336, in server_runner
+    serve(wsgi_app, **kwargs)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1285, in serve
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1128, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 1107, in __init__
+    request_queue_size=request_queue_size)
+  File "/home/shvelmur/webapps/tfav/lib/python2.5/Paste-1.7.2-py2.5.egg/paste/httpserver.py", line 328, in __init__
+    HTTPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 330, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python2.5/BaseHTTPServer.py", line 101, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/lib/python2.5/SocketServer.py", line 341, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+socket.error: (98, 'Address already in use')
+Removing PID file paster.pid
